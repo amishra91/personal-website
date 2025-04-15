@@ -7,15 +7,6 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
-    title: 'Personal Portfolio Website',
-    description: 'Personal Portfolio Website',
-    image: '/images/projects/1.png',
-    tag: ['All', 'Web'],
-    gitUrl: '/',
-    previewUrl: '/',
-  },
-  {
-    id: 2,
     title: 'Wonderslate',
     description: 'Wide selection of textbooks and study materials',
     image: '/images/projects/2.png',
@@ -24,7 +15,7 @@ const projectsData = [
     previewUrl: 'https://wonderslate.com',
   },
   {
-    id: 3,
+    id: 2,
     title: 'Itilite',
     description: 'Corporate Travel Management for Growing Businesses',
     image: '/images/projects/3.png',
@@ -33,7 +24,7 @@ const projectsData = [
     previewUrl: 'https://itilite.com',
   },
   {
-    id: 4,
+    id: 3,
     title: 'Plenty DeFi',
     description: 'Yield farming on Tezos Blockchain',
     image: '/images/projects/4.png',
@@ -42,7 +33,7 @@ const projectsData = [
     previewUrl: 'https://plentydefi.com',
   },
   {
-    id: 5,
+    id: 4,
     title: 'ActaFi',
     description: 'DeFi Ecosystem Powered By Avalanche',
     image: '/images/projects/5.png',
@@ -51,7 +42,7 @@ const projectsData = [
     previewUrl: 'https://actafi.org',
   },
   {
-    id: 6,
+    id: 5,
     title: 'Africarare',
     description:
       'Breaking Barriers and Enabling Communities with AI and Mixed Reality',
@@ -61,7 +52,7 @@ const projectsData = [
     previewUrl: 'https://africarare.io/',
   },
   {
-    id: 7,
+    id: 6,
     title: 'Solanart',
     description:
       'Solanart is the first fully-fledged NFT marketplace on Solana',
@@ -71,7 +62,7 @@ const projectsData = [
     previewUrl: 'https://solanart.io/',
   },
   {
-    id: 8,
+    id: 7,
     title: 'Thrillophilia',
     description:
       'Thrillophilia is India’s biggest online platform for discovering and booking travel experiences',
